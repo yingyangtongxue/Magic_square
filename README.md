@@ -14,7 +14,7 @@ $ sudo apt-get install gcc
 ## Compilation 
 To compile the gui_c.c file and generate the gui_c executable, simply run the command in the Linux terminal:
 ```sh
-$ gcc `pkg-config --cflags gtk+-3.0` -o gui gui.c `pkg-config --libs gtk+-3.0`
+$ gcc `pkg-config --cflags gtk+-3.0` -o gui_c gui_c.c `pkg-config --libs gtk+-3.0`
 ```
 ## Executation
 To execute the executable file it is necessary to use the following command:
